@@ -1,0 +1,89 @@
+/* DISORD COLOURS */
+/* White #ffffff */
+/* Dark #2c2f33 */
+/* Darker #23272a */
+/* Lighter #99aab5 */
+
+.yoinky_sploinky{
+  padding: 1px;
+  background-color:#677bc5;
+}
+
+body{
+  padding:0;
+  margin:0;
+}
+
+h1{
+    color:#ffffff; 
+    padding: 1px 1px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 50px;
+}
+
+html{
+  background-color: #2c2f33;
+}
+.header {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #23272a;
+  padding: 10px 0px;
+}
+
+.header a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.header a:hover {
+  background-color: #99aab5;
+  color: #ffffff;
+}
+
+.header a.active {
+  background-color: #677bc5;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+}
+@media screen and (max-width: 500px) {
+  h1{
+    font-size: 20px;
+    padding: 2px 4px;
+  }
+  
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 10px;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+a#nocursor{
+  text-decoration: none;
+  cursor:pointer;
+  color:#ffffff;
+  
+}
+
+.content{
+  word-wrap:break-word;
+}
